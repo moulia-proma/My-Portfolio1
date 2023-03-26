@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family : 'poppins', 'sans-sarif';
+    box-sizing: border-box;
+}
+body{
+   background-color: black;
+
+}
