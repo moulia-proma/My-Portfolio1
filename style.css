@@ -6,12 +6,7 @@
 }
 body{
    background-color: black;
-<<<<<<< HEAD
    color:whitesmoke}
-=======
-   color:white;
-}
->>>>>>> 9ce65df0b0c0d3574bce2a98b07894c258cbcd91
 .header{
 
 
@@ -79,7 +74,6 @@ nav ul li a:hover::after{
     margin-top: 10px;
 }
 .header-text h1 span{
-<<<<<<< HEAD
     color:pink;
 }
 #about{
@@ -110,7 +104,3 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: white;
 }
-=======
-    color:navy
-}
->>>>>>> 9ce65df0b0c0d3574bce2a98b07894c258cbcd91
