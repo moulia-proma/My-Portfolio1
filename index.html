@@ -40,6 +40,37 @@
          <p class = "para">
             I'm a student doing my bachelar degree in computer science and engnieering at leading university,sylhet.I'm a self learner i've the confidence to learn any new tech. quickly.i love building new things such as new sites and new applications.whatever i do i do it very passionately.i want to be a softweer engnieer for building new things.
          </p>
+         <div class="tab-titles">
+            <p class ="tab-links active-links" onclick="opentab('education')">Education</p>
+            <p class ="tab-links" onclick="opentab('skills')">Skills</p>
+
+         </div>
+         <div class="tab-contents active-tab" id="education">
+
+            <ul>
+               <li><span>SSC</span><br>Deenanath Institution Model hight school,Bahubal,habiganj(2013-2017)</li>
+               <li><span>HSC</span><br>Moulvibazar Govt womens college,Moulvibazar(2017-2019)</li>
+               <li><span>B.Sc</span><br>Leading university,sylhet(2020-current)</li>
+            </ul>
+         </div>
+
+         <div class="tab-contents" id="skills">
+
+            <ul>
+               <li><span>Programming Languages</span><br>C,C++,Java,JS,PHP,Python,Dart</li>
+               <li><span>Tools/techknolgy</span><br>Firebase,figma,Draw.io,Microsoft powerpoint,canva,google sheets,google form</li>
+               <li><span>Web techknolgy</span><br>HTML,CSS</li>
+               <li><span>Languages</span><br>English,Hindi,Bangla</li>
+              
+         
+               <li><span>Mobile application-Frameworks</span><br>Flutter</li>
+               <li><span>Others</span><br>Problem solving,DS,Algorithm,ML,AI</li>
+               
+               
+            </ul>
+         </div>
+
+
       </div>
    </div>
 
@@ -48,7 +79,21 @@
 
 
 </div>
+<script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+   for (tablink of tablinks){
+      tablink.classList.remove("active-links")
+   }
+   for (tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab")
+   }
+   event.currentTarget.classList.add("active-links");
+   document.getElementById(tabname).classList.add("active-tab");
+}
 
+</script>
 
 </body>
 </html>
